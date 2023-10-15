@@ -1,4 +1,5 @@
-
+plaintext = input("Please enter your word: ")
+n = int(input("Enter your level of encryption: "))
 
 def encrypt_message(plaintext, n):
     encrypted_message = ""
@@ -15,5 +16,5 @@ def encrypt_message(plaintext, n):
 
     return encrypted_message
 
+print(encrypt_message(plaintext, n))
 
-print (encrypt_message('Hello, World', 7))
